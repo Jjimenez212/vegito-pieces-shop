@@ -41,7 +41,5 @@
     background-color: #8e090f;
   }
 @media screen and (max-width: 680px) {
-    .cartCard{
-      display: none;
-    }
+    
   }

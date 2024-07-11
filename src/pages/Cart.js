@@ -1,15 +1,11 @@
-import React from 'react'
+import { useCart } from '../context/CartContext';
 import CartCard from '../components/CartCard';
 import useTitle from '../hooks/useTitle';
-import { useCart } from '../context/CartContext';
-import '../App.css'
 
 const Cart = () => {
   const { total, cartList } = useCart();
   useTitle("Cart");
   
-
-
   return (
     <main>
       <section className='cart'>
